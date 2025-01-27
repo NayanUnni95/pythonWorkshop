@@ -50,11 +50,38 @@ data = [
 # print(data[0]["name"])
 # print(data[1]["name"])
 
+
+# conditional statements
+
+# age = input("Enter your name : ")
+# if int(age) == 18:
+#     print("your are just 18")
+# elif int(age) > 18:
+#     print("your age is major")
+# else:
+#     print("Your are minor")
+
+
+# for loop
+# range(start, end, step)
+
 # for details in data:
 #     print(details)
 
-age = input("Enter your name : ")
-if int(age) > 18:
-    print("your age is major")
-else:
-    print("Your are minor")
+# for i in range(1, 5, 2):
+#     print(i)
+    
+name = ["Nayan", "Hari", "Rahul"]
+# for i in range(len(name)):
+#     print(name[i])
+    
+# for name in name:
+#     print(name)
+    
+# print(name for name in name);
+
+# function
+def printDetails(name):
+    return ("Hello " + name);
+
+# print(printDetails('nayan'));
